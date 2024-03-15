@@ -1,0 +1,31 @@
+n@localhost scripting]$
+[admin@localhost scripting]$
+[admin@localhost scripting]$ cat kokila.text
+hello world this is kokila
+hello world this is kokila
+[admin@localhost scripting]$ echo "hello world this is kokila" >> kokila.text
+[admin@localhost scripting]$ cat kokila.text
+hello world this is kokila
+hello world this is kokila
+hello world this is kokila
+[admin@localhost scripting]$ echo "hello lavanya" > lavanya.text
+[admin@localhost scripting]$ cat lavanya.text
+hello lavanya
+[admin@localhost scripting]$ echo "hello yagnesh" > lavanya.text
+[admin@localhost scripting]$ cat lavanya.text
+hello yagnesh
+[admin@localhost scripting]$ echo "hello yagnesh and lavanya" >> lavanya.text
+[admin@localhost scripting]$ cat lavanya.text
+hello yagnesh
+hello yagnesh and lavanya
+[admin@localhost scripting]$ echo "hello urvasi" > urvasi.text
+[admin@localhost scripting]$ echo "hello urvasi and lavanya" >> urvasi.text
+[admin@localhost scripting]$ cat urvasi.text
+hello urvasi
+hello urvasi and lavanya
+[admin@localhost scripting]$ ls
+abc             file1.text  file.text  for.sh  if3.sh  kavitha  kokila      kokila.sh    lavanya.text  script.sh    variable.sh        YAGNESH
+documents.text  file2.text  fi.sh      if2.sh  JABA    KOK      kokila1.sh  kokila.text  LOVE          urvasi.text  var_perameters.sh
+[admin@localhost scripting]$ vim file.text
+[admin@localhost scripting]$ vim kokila.text
+[admin@localhost scripting]$ wc < kokila.textZZ

@@ -1,0 +1,1000 @@
+    1  clear
+    2  clear
+    3  clear
+    4  clear
+    5  cat practice
+    6  awk '/amit/{print}' practice
+    7  awk '{print $1,$3,$4} practice
+    8  awk '{print $1,$3,$4} practice
+    9  awk '{print $1,$3} practice
+   10  awk '{print $1} practice
+   11  awk '{print $1,$3,$4}' practice
+   12  awk '{print $1,$3,$4}' practice
+   13  awk '/account/ {print$0}' practice
+   14  awk '/account,sales/ {print$0}' practice
+   15  awk '/sales/ {print$0}' practice
+   16  awk '/sales/ {print}' practice
+   17  awk '/sales/ {print$3}' practice
+   18  cat practice
+   19  awk '/clerk/ {print$2}' practice
+   20  awk '/clerk/ {print$2}' practice
+   21  awk '{print NR $0}' practice
+   22  awk '{print NR,$0}' practice
+   23  awk '{print NR}' practice
+   24  awk '{print NR,$0}' practice
+   25  awk '{print NF,$0}' practice
+   26  awk '{print NF}' practice
+   27  awk '{print $NF}' practice
+   28  awk '{print $NR}' practice
+   29  cat practice
+   30  awk '{print $NR}' practice
+   31  awk '{print #NR}' practice
+   32  awk '{print $NR}' practice
+   33  awk '{print NR}' practice
+   34  awk '{print NR,$0}' practice
+   35  ls
+   36  clear
+   37  ls
+   38  awk '{print NF $0}'
+   39  awk '{print NF $0}' practice
+   40  awk '{print NF,$0}' practice
+   41  awk '{print NR,$0}' practice
+   42  awk '{print NR,$0 $1}' practice
+   43  awk '{print NR,$0,$1}' practice
+   44  cd /
+   45  ls
+   46  cd ..
+   47  ls
+   48  cd home/
+   49  ls
+   50  clear
+   51  ls
+   52  awk '{print $NF}' practice
+   53  awk 'NR==2 , NR==5 {print $0}' practice
+   54  cat practice
+   55  awk 'NR==2 , NR==5 {print $0}' practice
+   56  awk 'NR==2 , NR==5 {print}' practice
+   57  awk '{print NR $0}' | grep 3
+   58  awk '{print NR $0}' | grep '3'
+   59  history 
+   60  ajay manager account 45000
+   61  sunil clerk account 25000
+   62  varun manager sales 50000
+   63  amit manager account 47000
+   64  tarun peon sales 15000
+   65  deepak clerk sales 23000
+   66  sunil peon sales 13000
+   67  satvik director purchase 80000 
+   68  history 
+   69  history | less
+   70  history | more
+   71  clear
+   72  cat practice
+   73  awk '/^t/' practice
+   74  awk '/^ajay/' practice
+   75  ps
+   76  df -h | awk '/^tmpfs/'
+   77  df -h | awk '{print NR $0}'| grep 2
+   78  df -h | awk '{print NR,$0}'| grep "tmpfs"
+   79  df -h | awk '{print NR,$0}'| head -2
+   80  df -h | awk '{print NR,$0}'| head -3
+   81  df -h | awk '{print NR,$0}'| head -3 | tail -1
+   82  df -h | awk '{print $0}'| head -3 | tail -1
+   83  df
+   84  df -h | set nu
+   85  df -h | awk '{print NR,$0}'
+   86  df -h | awk '{print NR,$0}'| head -4 | tail -4
+   87  df -h | awk '{print $0}'| head -3 | tail -1
+   88  df -h | awk '{print $0}'| head -3 | tail -3
+   89  df -h | awk '{print $0}'| head -3 | tail -1
+   90  df -h | awk '{print $0}'| head -4 | tail -1
+   91  df -h | awk '{print $0}'| head -3 | tail -2
+   92  df -h
+   93  df -h '{print NR $0}'
+   94  df -h | awk '{print NR,$0}'
+   95  df -h | awk '{print NR,$0}'
+   96  df -h | awk '{print NR,$0}'| head -1
+   97  df -h | awk 'NR==1 , NR==5 {print $0}'
+   98  df -h | awk '{print NR,$0}'| head -1 | head -4
+   99  df -h | awk '{print NR,$0}'| head -1 | head -5 | tail -5
+  100  df -h | awk '{print NR,$0}'| head -1 | head -5 | tail -4
+  101  df -h | awk '{print NR,$0}'| head -1 | df -h | head -5 | tail -4
+  102  df -h | awk '{print NR,$0}'| head -1
+  103  df -h | awk '{print NR,$0}'| head -1 | grep '3 tmpfs'
+  104  df -h | awk '{print NR,$0}'| head -5 | grep '3 tmpfs'
+  105  awk '/^5/' {print $0}
+  106  awk '/^5/ {print $0}'
+  107  awk '/^5/ ' 
+  108  df -h | awk '/^5/'
+  109  df -h | awk {print NR,$0}
+  110  df -h | awk '{print NR,$0}'
+  111  df -h | awk '{print NR,$0}'| awk '/^5/'
+  112  df -h | awk '{print NR,$0}'| awk '/^5 tmpfs/'
+  113  df -h | awk '{print NR,$0}'
+  114  df -h | awk '{print NR,$0 (NR-6)}'
+  115  df -h | awk '{print,(NR-6)}'
+  116  df -h | awk '{print $0 (NR-6)}'
+  117  echo $0
+  118  clear
+  119  echo $0
+  120  ls
+  121  clear
+  122  ls
+  123  celar
+  124  clear
+  125  cat /etc/shell
+  126  cat /etc/shells
+  127  cd etc
+  128  cd ..
+  129  cd etc
+  130  cd shells
+  131  ls
+  132  vim shells
+  133  ls -l
+  134  cd ..
+  135  cd home/
+  136  ls
+  137  nano versionn
+  138  man nano
+  139  man vim
+  140  man vim | more
+  141  ls
+  142  ls -l .sh
+  143  ls .sh
+  144  .sh
+  145  ls -l | .sh
+  146  cat yagnesh.sh 
+  147  vim yagnesh.sh 
+  148  ./yagnesh.sh
+  149  +x yagnesh.sh 
+  150  chomod 700 yagnesh.sh 
+  151  chmod 700 yagnesh.sh 
+  152  ./ yagnesh.sh 
+  153  cat yagnesh.sh 
+  154  vim yagnesh.sh 
+  155  ./ yagnesh.sh 
+  156  ./yagnesh.sh 
+  157  bash yagnesh.sh 
+  158  grep yagnesh.sh 
+  159  ls -l
+  160  pwd
+  161  /home yagnesh.sh 
+  162  ls
+  163  /yagnesh.sh
+  164  ./yagnesh.sh 
+  165  cd ..
+  166  /home/yagnesh.sh 
+  167  cd ..
+  168  cd 
+  169  /home/yagnesh.sh 
+  170  ls
+  171  cd ..
+  172  ls
+  173  clear
+  174  cd home
+  175  ls
+  176  clear
+  177  bash /yagnesh.sh
+  178  bash /home/yagnesh.sh
+  179  bash yagnesh.sg
+  180  bash yagnesh.sh 
+  181  cd ..
+  182  ls
+  183  clear
+  184  ls -l
+  185  vim file.text
+  186  truncate -s file.text
+  187  truncate -s 0 file.text
+  188  ls -l
+  189  vim file.text
+  190  mv file.text file.sh
+  191  vim file.sh
+  192  bash file.sh
+  193  cat file.sh
+  194  vim file.sh
+  195  ./file.sh
+  196  vim file.sh
+  197  ./file.sh
+  198  ls -l file.sh
+  199  truncate -s 0 file.sh
+  200  ls -l file.sh
+  201  clear
+  202  hostname
+  203  clear
+  204  vim file.sh
+  205  ./file.sh
+  206  hostname
+  207  clear
+  208  vim file.sh
+  209  vim file.sh
+  210  ./file.sh
+  211  vim file.sh
+  212  ./file.sh
+  213  vim file.sh
+  214  ./file.sh
+  215  cd ..
+  216  ls
+  217  clear
+  218  ls -l
+  219  ls -lt
+  220  cat file.sh
+  221  cat file.sh
+  222  ./file.sh
+  223  truncate -s 0 file.sh
+  224  vim file.sh
+  225  ./file.sh
+  226  vim file.sh
+  227  ./file.sh
+  228  clear
+  229  vim file.sh
+  230  ./file.sh
+  231  vim file.sh
+  232  ./file.sh
+  233  vim file.sh
+  234  ./file.sh
+  235  vim file.sh
+  236  ./file.sh
+  237  cat file.sh
+  238  vim file.sh
+  239  ./file.sh
+  240  vim file.sh
+  241  ./file.sh
+  242  vim file.sh
+  243  ./file.sh
+  244  vim file.sh
+  245  ./file.sh
+  246  vim file.sh
+  247  ./file.sh
+  248  \
+  249  ./file.sh
+  250  ./file.sh
+  251  vim file.sh
+  252  ./file.sh
+  253  ./file.sh
+  254  vim file.sh
+  255  cat file.sh
+  256  vim file.sh
+  257  ./file.sh
+  258  ./file.sh
+  259  vim file.sh
+  260  truncate -s 0 file.sh
+  261  vim file.sh
+  262  ./file.sh 
+  263  vim file.sh
+  264  cat file.sh
+  265  vim file.sh
+  266  ./file.sh
+  267  ./file.sh
+  268  cat file.sh
+  269  cat file.sh
+  270  vim file.sh
+  271  ./file.sh
+  272  cat file.sh
+  273  vim file.sh
+  274  ./file.sh
+  275  vim file.sh
+  276  ./file.sh
+  277  vim file.sh
+  278  ./file.sh
+  279  vim file.sh
+  280  ./file.sh
+  281  ./file.sh
+  282  cat file.sh
+  283  ./file.sh
+  284  cd ..
+  285  ls
+  286  clear
+  287  ls
+  288  clear
+  289  ls
+  290  vim practice
+  291  vim practice.sj
+  292  vim practice.sh
+  293  bash practice.sh
+  294  vim practice.sh
+  295  chmod 700 practice.sh
+  296  ./practice.sh 
+  297  vim practice.sh
+  298  ./practice.sh 
+  299  vim practice.sh
+  300  ./practice.sh 
+  301  vim practice.sh
+  302  ls
+  303  clear
+  304  ls
+  305  cd ..
+  306  ls
+  307  vim practice.sh
+  308  ,/ practice.sh
+  309  ./practice.sh 
+  310  vim practice.sh
+  311  ./practice.sh 
+  312  ./practice.sh 
+  313  ./practice.sh 
+  314  vim practice.sh
+  315  vim practice.sh
+  316  ./practice.sh 
+  317  ls
+  318  ls -l
+  319  ls -l | grep -v admin
+  320  ls -l
+  321  ls -l | grep -v practice.sh
+  322  ls
+  323  turncate -s 0 practice.sh
+  324  turncate -S 0 practice.sh
+  325  truncate -S 0 practice.sh
+  326  truncate -s 0 practice.sh
+  327  ls -l practice.sh
+  328  vim practice.sh
+  329  ./practice.sh 
+  330  vim practice.sh
+  331  ./practice.sh 
+  332  vim practice.sh
+  333  ./practice.sh 
+  334  ./practice.sh 
+  335  vim practice.sh
+  336  ./practice.sh 
+  337  ./practice.sh 
+  338  vim practice.sh
+  339  vim practice.sh
+  340  ./practice.sh 
+  341  vim practice.sh
+  342  ./practice.sh 
+  343  truncate -s 0 practice.sh
+  344  vim practice.sh
+  345  ./practice.sh 
+  346  ./practice.sh 
+  347  vim if1.sh
+  348  ./practice.sh 
+  349  ./if1.sh
+  350  chomod 700 if1.sh
+  351  chmod 700 if1.sh
+  352  ./if1.sh
+  353  ./if1.sh
+  354  vim if1.sh 
+  355  ./if1.sh
+  356  ./if1.sh
+  357  vim if1.sh 
+  358  vim if2.sh
+  359  chomod 700 if2.sh
+  360  chmod 700 if2.sh
+  361  ./if2.sh
+  362  vim if2.sh
+  363  ./if2.sh
+  364  ./if2.sh
+  365  ./if2.sh
+  366  vim if2.sh
+  367  vim if2.sh
+  368  ./if2.sh
+  369  vim practice.sh
+  370  vim if1.sh
+  371  vim -o practice.sh if1.sh
+  372  vim if3.sh | chomod 700 
+  373  cd ..
+  374  ls
+  375  vim if3.sh
+  376  pwd
+  377  ls
+  378  ls -l
+  379  pwd file.sh
+  380  clear
+  381  vim if3.sh
+  382  chmod 700 if3.sh
+  383  ./if3.sh
+  384  cat if3.sh
+  385  vim if3.sh
+  386  vim if3.sh
+  387  ./if3.sh
+  388  vim if3.sh
+  389  ls -l if.sh
+  390  ls -l
+  391  vim if3.sh
+  392  vim if3.sh
+  393  ./if3.sh
+  394  ls -ls
+  395  vim if3.sh
+  396  ./if3.sh
+  397  vim if3.sh
+  398  ./if3.sh
+  399  vim if3.sh
+  400  cat ABCD
+  401  CLAR
+  402  cat ABCD
+  403  truncate -s 0 ABCD
+  404  ./if3.sh
+  405  cat if3.sh
+  406  truncate -s 0 if3.sh
+  407  vim  if3.sh
+  408  ls -l 
+  409  vim if3.sh
+  410  ./if3.sh
+  411  ls -l 
+  412  turncate -s 0 ABC.tar.gz
+  413  turncate -s 0 ABC.tar.gz
+  414  truncate -s 0 ABC.tar.gz
+  415  ./if3.sh
+  416  vim if3.sh
+  417  ./if3.sh
+  418  rm -rf ABC.tar.gz
+  419  ./if3.sh
+  420  ls -l
+  421  vim if3.sh
+  422  ./if3.sh
+  423  chmod 000 if2.sh
+  424  ./if3.sh
+  425  chmod 700 if2.sh
+  426  ./if3.sh
+  427  ./if3.sh
+  428  vim if3.sh
+  429  cat if1.sh
+  430  vim if3.sh
+  431  ./if3.sh
+  432  cat if3.sh 
+  433  vim if3.sh
+  434  ./if3.sh
+  435  ./if3.sh
+  436  ./if3.sh
+  437  ./if3.sh
+  438  df -k
+  439  df -g
+  440  df -m
+  441  find -name logfiles
+  442  find -name "logfiles"
+  443  clear
+  444  grep -name logfile
+  445  clear
+  446  ls
+  447  cd ..
+  448  ls
+  449  cd log
+  450  cd var
+  451  ls
+  452  cd ..
+  453  cd var/log
+  454  ls
+  455  cd kalyan 
+  456  cat kalyan
+  457  ls
+  458  cat yum.log
+  459  cat secure
+  460  cat secure | less
+  461  ls
+  462  cat cron
+  463  cat cron | less
+  464  cat cron | grep "error"
+  465  vim cron
+  466  ls
+  467  cat dmesg
+  468  ;set nu
+  469  cat dmesg | less
+  470  man awk
+  471  man awk
+  472  cd ..
+  473  ls
+  474  clear
+  475  ls
+  476  vim if4.sh
+  477  chmod 700 if4.sh 
+  478  ./if4.sh
+  479  vim if4.sh
+  480  ./if4.sh
+  481  ./if4.sh
+  482  vim if4.sh
+  483  ./if4.sh
+  484  ./if4.sh
+  485  vim if4.sh
+  486  ./if4.sh
+  487  ./if4.sh
+  488  vim if4.sh
+  489  ./if4.sh
+  490  cat if4.sh
+  491  vim if4.sh
+  492  ./if4.sh
+  493  cat if4.sh 
+  494  ./if4.sh
+  495  vim if4.sh
+  496  ./if4.sh
+  497  ./if4.sh
+  498  vim if4.sh
+  499  ./if4.sh
+  500  vim if4.sh
+  501  ./if4.sh
+  502  truncate -s 0 if4.sh
+  503  vim if4.sh
+  504  vim if4.sh
+  505  ./if4.sh
+  506  vim if4.sh
+  507  ./if4.sh
+  508  vim if4.sh
+  509  ./if4.sh
+  510  cat if4.sh
+  511  vim if4.sh
+  512  ./if4.sh
+  513  ./if4.sh
+  514  vim if4.sh
+  515  ./if4.sh
+  516  vim if4.sh
+  517  vim if5.sh
+  518  chmod 700 if5.sh 
+  519  ./if5.sh 
+  520  ./if5.sh 
+  521  vim if5.sh
+  522  ./if5.sh 
+  523  ./if5.sh 
+  524  vim if5.sh
+  525  vim -o if4.sh if5.sh
+  526  vim if5.sh
+  527  ./if5.sh 
+  528  ./if5.sh 
+  529  vim if5.sh
+  530  ./if5.sh 
+  531  ./if5.sh 
+  532  truncate -s 0 if5.sh
+  533  ls -l if5.sh
+  534  clear
+  535  vim if5.sh
+  536  ./if5.sh
+  537  ./if5.sh
+  538  vim if5.sh
+  539  ./if5.sh
+  540  cat if5.sh
+  541  vim if5.sh
+  542  ./if5.sh
+  543  ./if5.sh
+  544  vim if5.sh
+  545  ./if5.sh
+  546  ./if5.sh
+  547  vim if5.sh
+  548  ./if5.sh
+  549  vim if5.sh
+  550  ./if5.sh
+  551  ./if5.sh
+  552  ./if5.sh
+  553  ./if5.sh
+  554  vim if5.sh
+  555  truncate -s 0 if5.sh 
+  556  vim if5.sh 
+  557  vim if5.sh
+  558  ./if5.sh
+  559  ls -l if2.sh
+  560  vim if5.sh
+  561  ./if5.sh
+  562  vim if5.sh
+  563  ./if5.sh
+  564  vim if5.sh
+  565  ./if5.sh
+  566  vim if5.sh
+  567  ./if5.sh
+  568  vim if5.sh
+  569  ./if5.sh
+  570  ls -l
+  571  ls -ls
+  572  vim if5.sh
+  573  ./if5.sh
+  574  truncate -s 0 f
+  575  ./if5.sh
+  576  vim if5.sh
+  577  ./if5.sh
+  578  rm -rf f
+  579  mkdir f
+  580  ./if5.sh
+  581  vim if5.sh
+  582  ./if5.sh
+  583  vim if5.sh
+  584  ./if5.sh
+  585  vim if5.sh
+  586  ./if5.sh
+  587  vim if5.sh
+  588  ./if5.sh
+  589  vim if5.sh
+  590  ./if5.sh
+  591  ./if5.sh
+  592  vim if5.sh
+  593  ./if5.sh
+  594  vim if5.sh
+  595  cat if4.sh 
+  596  vim if4.sh 
+  597  ./if4.sh 
+  598  cat if4.sh 
+  599  ./if4.sh 
+  600  cat if5.sh
+  601  truncate -s 0 if5.sh
+  602  vim if5.sh
+  603  ./if5.sh
+  604  vim if5.sh
+  605  ./if5.sh
+  606  cat if5.sh
+  607  vim if5.sh
+  608  ./if5.sh
+  609  vim if5.sh 
+  610  ./if5.sh
+  611  vim if5.sh 
+  612  ./if5.sh
+  613  truncate -s 0 if5.sh 
+  614  vim if5.sh 
+  615  vim if5.sh 
+  616  ./if5.sh
+  617  ./if5.sh
+  618  vim if5.sh 
+  619  ./if5.sh
+  620  vim if5.sh 
+  621  ./if5.sh
+  622  vim if5.sh 
+  623  vim if6.sh
+  624  chmod if6.sh
+  625  chmod 700 if6.sh 
+  626  ./if6.sh
+  627  ./if6.sh
+  628  ./if6.sh
+  629  ./if6.sh
+  630  ./if6.sh
+  631  cat if6.sh 
+  632  cat -0 if5.sh  if6.sh 
+  633  cat -0 if5.sh if6.sh 
+  634  cat -o if5.sh if6.sh 
+  635  cat -v if5.sh if6.sh 
+  636  vim -o if5.sh if6.sh 
+  637  vim if5.sh 
+  638  ./if5.sh 
+  639  vim if5.sh
+  640  ./if5.sh 
+  641  vim if5.sh
+  642  diff if5.sh if6.sh
+  643  vim if5.sh 
+  644  ./if5.sh 
+  645  ./if5.sh 
+  646  vim if5.sh 
+  647  ./if5.sh 
+  648  ./if5.sh 
+  649  ./if5.sh 
+  650  cat if5.sh
+  651  truncate -s 0 if6.shj
+  652  truncate -s 0 if6.sh
+  653  lss
+  654  clear
+  655  ls
+  656  ls -l if6.sh
+  657  clear
+  658  vim if6.sh
+  659  ./if6.sh 
+  660  vim if6.sh
+  661  ./if6.sh 
+  662  vim if6.sh
+  663  ./if6.sh 
+  664  ./if6.sh 
+  665  cleaer
+  666  vim if6.sh
+  667  truncate -s 0 if6.sh
+  668   vim if6.sh
+  669  ./if6.sh 
+  670   vim if6.sh
+  671  ./if6.sh 
+  672  ./if6.sh 
+  673  ./if6.sh 
+  674  ./if6.sh 
+  675  1
+  676  ./if6.sh 
+  677  cat if6.sh
+  678  ls
+  679  cleaer
+  680  clear
+  681  ls
+  682  celar
+  683  ls
+  684  ls
+  685  vim if6.sh
+  686  cat if4.sh 
+  687  vim if7.sh
+  688  chmod 700 if7.sh 
+  689  ./if7.sh 
+  690  vim if7.sh
+  691  ./if7.sh 
+  692  vim if7.sh 
+  693  ./if7.sh 
+  694  vim if7.sh 
+  695  ./if7.sh 
+  696  vim if7.sh 
+  697  ./if7.sh 
+  698  vim if7.sh 
+  699  truncate if7.sh
+  700  truncate -s 0 if7.sh
+  701  vim if7.sh
+  702  ./if7.sh 
+  703  vim if7.sh
+  704  ./if7.sh 
+  705  vim if7.sh 
+  706  ./if7.sh 
+  707  vim if7.sh 
+  708  ./if7.sh 
+  709  truncate -s 0 if7.sh 
+  710  vim if7.sh 
+  711  ./if7.sh 
+  712  vim if7.sh 
+  713  ./if7.sh 
+  714  vim if7.sh 
+  715  ./if7.sh 
+  716  vim if7.sh 
+  717  ./if7.sh 
+  718  vim if7.sh 
+  719  ./if7.sh 
+  720  cd ..
+  721  ls
+  722  cd var
+  723  ls
+  724  cd log
+  725  ls
+  726  vim messages-20240125
+  727  vim messages-20240125 | lesss
+  728  cd ..
+  729  ls
+  730  cd ..
+  731  ls
+  732  cd var/log
+  733  ls
+  734  cat messages-20240125 | less
+  735  truncate -s 0 if7.sh
+  736  vim if7.sh 
+  737  ./if7.sh
+  738  ./if7.sh
+  739  chmod 700 if7.sh
+  740  ./if7.sh
+  741  ./if7.sh | less
+  742  vim if7.sh 
+  743  fls
+  744  ls -l
+  745  pwd
+  746  cd ..
+  747  cd ..
+  748  ls
+  749  cd home
+  750  ls
+  751  clear
+  752  ls
+  753  ls -l
+  754  ls -l | awk '{print$9}'
+  755  ls -l | awk '{print$9}' > file.text
+  756  ls
+  757  ls -l file.text | cat
+  758  cat file.text
+  759  clear
+  760  ls
+  761  pwd
+  762  vim if7.sh
+  763  ./if7.sh
+  764  vim if7.sh
+  765  ./if7.sh
+  766  ls 
+  767  ls -l | file.text
+  768  ls -l file.text
+  769  pwd
+  770  file.text
+  771  cat file.text
+  772  vim if7.sh
+  773  vim if7.sh
+  774  ./if7.sh
+  775  cat file.text
+  776  vim if7.sh
+  777  ./if7.sh
+  778  vim if7.sh
+  779  ./if7.sh
+  780  ./if7.sh
+  781  vim if7.sh
+  782  ./if7.sh
+  783  vim if7.sh
+  784  ls
+  785  cd ..
+  786  ls
+  787  clear
+  788  ls
+  789  ls
+  790  ls
+  791  vim if7.sh
+  792  truncate -s 0 if7.sh
+  793  ls
+  794  ls -l
+  795  vim if7.sh 
+  796  ./if7.sh
+  797  cd /var/log/application.log
+  798  cd /var/log/
+  799  ls
+  800  ls -l
+  801  ls -l | less
+  802  ls -ls
+  803  ls -ls | less
+  804  cat boot.log | less
+  805  ls
+  806  cat lastlog
+  807  cat anaconda/
+  808  cd anaconda/
+  809  ls
+  810  ls -l
+  811  cat ifcfg.log 
+  812  cat ifcfg.log | less
+  813  cd ..
+  814  ls
+  815  cd anaconda/
+  816  ls
+  817  cat ks-script-AMqB0u.log 
+  818  cat program.log 
+  819  cat program.log | less
+  820  vim program.log 
+  821  wc program.log 
+  822  vim if7.sh
+  823  CD ..
+  824  cd ..
+  825  cd ..
+  826  cd ..
+  827  cd home
+  828  ls
+  829  vim if7.sh
+  830  ./if7.sh
+  831  cd ..
+  832  ls
+  833  vim if7.sh
+  834  ./if7.sh
+  835  vim if7.sh
+  836  vim if8.sh
+  837  bash if8.sh
+  838  diff if7.sh if8.sh 
+  839  cat -o if7.sh if8.sh 
+  840  clear
+  841  cat -v if7.sh if8.sh 
+  842  diff if7.sh if8.sh 
+  843  cd ..
+  844  ;s
+  845  ls
+  846  clear
+  847  ls
+  848  vim if7.sh 
+  849  ./if7.sh 
+  850  vim if8.sh 
+  851  diff if7.sh if8.sh 
+  852  vim if7.sh
+  853  vim if7.sh
+  854  bash if7.sh
+  855  ls
+  856   cd ..
+  857   ;s
+  858   jkls
+  859  ls
+  860  cd home
+  861  ls
+  862  vim if7.sh 
+  863  ./if7.sh 
+  864  clear
+  865  vim if7.sh 
+  866  cd ..
+  867  cd var/log
+  868  ls
+  869  cat boot.log-20240207
+  870  cat boot.log-20240207 | less
+  871  cd ..
+  872  cd ..
+  873  cd home
+  874  ls
+  875  cd ..
+  876  ls
+  877  clear
+  878  vim if7.sh
+  879  truncate -s 0 if7.sh 
+  880  vim if7.sh
+  881  ./if7.sh 
+  882  vim if7.sh
+  883  ./if7.sh 
+  884  truncate -s 0 if7.sh 
+  885  vim if7.sh
+  886  cd ..
+  887  ls
+  888  ls
+  889  vim if7.sh
+  890  ./if7.sh 
+  891  vim if7.sh
+  892  ./if7.sh 
+  893  vim if7.sh [A
+  894  ./if7.sh 
+  895  vim if7.sh
+  896  vim if7.sh
+  897  ./if7.sh 
+  898  clear
+  899  vim if7.sh 
+  900  ./if7.sh 
+  901  vim if7.sh 
+  902  ./if7.sh 
+  903  vim if7.sh 
+  904  ./if7.sh 
+  905  vim if7.sh 
+  906  ./if7.sh 
+  907  vim if7.sh 
+  908  ./if7.sh 
+  909  vim if7.sh 
+  910  vim if7.sh 
+  911  ./if7.sh 
+  912  vim if7.sh 
+  913  ./if7.sh 
+  914  ls
+  915  clear
+  916  cd ..
+  917  sls
+  918  ls
+  919  clear
+  920  ls -l *.sh
+  921  cd ..
+  922  ls
+  923  cd home
+  924  vim 1.sh
+  925  vim 2.sh
+  926  chmod 700 1.sh 2.sh
+  927  ./1.sh
+  928  cat 1.sh
+  929  vim 1.sh 
+  930  ./1.sh
+  931  vim 1.sh 
+  932  ./1.sh
+  933  vim 1.sh 
+  934  ./1.sh
+  935  ./2.sh
+  936  diff 1.sh 2.sh
+  937  cat -v 1.sh 2.sh
+  938  ./1.sh 2.sh
+  939  vim 2.sh 
+  940  cat 1.sh 2.sh 
+  941  ./1.sh 
+  942  ./2.sh 
+  943  cat 1.sh 2.sh 
+  944  man awk
+  945  ls
+  946  cat file.text
+  947  truncate -s 0 file.text | vim file.text
+  948  man awkCVVFJFDKLJKDSA
+  949  
+  950  top
+  951  useradd kokila
+  952  sudo su kokila
+  953  su kokila
+  954  useradd revathi
+  955  su revathi
+  956  cd ..
+  957  ls
+  958  clear
+  959  ps
+  960  ps -ef
+  961  ps -au
+  962  ps -aux
+  963  ps -ef | less
+  964  ps -ef | grep "kokila"
+  965  ps -ef | grep "amazon"
+  966  ps -ef | grep "amagi"
+  967  ps -ef 
+  968  ps -ef | grep 
+  969  ps -ef | grep "admin"
+  970  ps -ef | grep "chroynd"
+  971  ps -ef | grep "sshd"
+  972  ps -ef | grep "sshd:"
+  973  cd ..
+  974  ls
+  975  ls -l
+  976  ps -eff
+  977  ps -ef > file.text
+  978  cat file.text
+  979  vim file.text
+  980  ls -l
+  981  ]vim file.text\
+  982  ]vim file.text
+  983  yum install vim
+  984  vim file1
+  985  awk '{print $0}' file1
+  986  awk '{print $0}' file1
+  987  awk '{print $1 , $2}' file1
+  988  awk '{print $1 , NF' file1
+  989  awk '{print $1 , NF}' file1
+  990  ls
+  991  find / -name JABA
+  992  LS
+  993  ls
+  994  ls -l
+  995  tac if1.sh 
+  996  cd ..
+  997  cd home/
+  998  history 
+  999  history clear
+ 1000  history > file.text

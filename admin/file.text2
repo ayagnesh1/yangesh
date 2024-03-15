@@ -1,0 +1,24 @@
+[root@localhost run]# su admin
+[admin@localhost run]$ ls
+auditd.pid  cron.reboot          dmeventd-client  firewalld  lvm          NetworkManager  sshd.pid     tmpfiles.d  utmp
+chrony      cryptsetup           dmeventd-server  initramfs  lvmetad.pid  plymouth        sudo         tuned       xtables.lock
+console     dbus                 ebtables.lock    lock       mount        sepermit        syslogd.pid  udev
+crond.pid   dhclient-enp0s3.pid  faillock         log        netreport    setrans         systemd      user
+[admin@localhost run]$ cd ..
+[admin@localhost var]$ cd ..
+[admin@localhost /]$ ls
+bin  boot  dev  etc  home  lib  lib64  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var
+[admin@localhost /]$ cd ~
+[admin@localhost ~]$ ls
+dir1  dir4         file.text2                      if1.sh       revathi.text  script.sh                        yash
+dir2  file1.text   file.text3                      kalyan       script        tomcat-9.0.68-1.fc38.noarch.rpm  yash.text
+dir3  file.tar.gz  GnomeShellIntegrationForChrome  kokila.text  scripting     yagnesh
+[admin@localhost ~]$ vim file.text2
+[admin@localhost ~]$ dev/null/ > file.text2
+bash: dev/null/: No such file or directory
+[admin@localhost ~]$ ls
+dir1  dir4         file.text2                      if1.sh       revathi.text  script.sh                        yash
+dir2  file1.text   file.text3                      kalyan       script        tomcat-9.0.68-1.fc38.noarch.rpm  yash.text
+dir3  file.tar.gz  GnomeShellIntegrationForChrome  kokila.text  scripting     yagnesh
+[admin@localhost ~]$ vim file.text2
+[admin@localhost ~]

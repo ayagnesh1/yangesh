@@ -1,0 +1,119 @@
+ n@localhost ~]$ ls -lht
+total 16K
+drwxrwxr-x. 2 admin admin    6 Nov 19 12:31 file1
+drwxrwxr-x. 2 admin admin  111 Nov 17 21:41 lavanya
+drwxrwxr-x. 2 admin admin   23 Nov 17 20:43 kalyan
+lrwxrwxrwx. 1 admin admin   14 Nov 16 14:17 revathi.text -> /tmp/file.text
+lrwxrwxrwx. 1 admin admin   15 Nov 16 14:04 yash1 -> /tmp/file1.text
+lrwxrwxrwx. 1 admin admin   14 Nov 16 13:58 yash.text -> /tmp/file.text
+drwxrwxr-x. 2 admin admin    6 Nov 16 09:52 rushi1
+drwxrwxr-x. 2 admin admin    6 Nov 16 09:52 rushi2
+-rw-rw-r--. 1 admin admin 8.5K Nov 15 20:50 file.text
+-rw-------. 1 admin admin   34 Nov 15 10:12 file2
+drwxrwxr-x. 2 admin admin    6 Nov 15 10:12 dir2
+drwxrwxr-x. 2 admin admin   58 Nov 14 22:57 dir1
+drwxrwxr-x. 2 admin admin    6 Nov 11 18:04 yagnesh
+
+total 16K
+kokila@gmail.com
+
+n@localhost ~]$ ls -lht
+total 16K
+drwxrwxr-x. 2 admin admin    6 Nov 19 12:31 file1
+drwxrwxr-x. 2 admin admin  111 Nov 17 21:41 lavanya
+drwxrwxr-x. 2 admin admin   23 Nov 17 20:43 kalyan
+lrwxrwxrwx. 1 admin admin   14 Nov 16 14:17 revathi.text -> /tmp/file.text
+lrwxrwxrwx. 1 admin admin   15 Nov 16 14:04 yash1 -> /tmp/file1.text
+lrwxrwxrwx. 1 admin admin   14 Nov 16 13:58 yash.text -> /tmp/file.text
+drwxrwxr-x. 2 admin admin    6 Nov 16 09:52 rushi1
+drwxrwxr-x. 2 admin admin    6 Nov 16 09:52 rushi2
+-rw-rw-r--. 1 admin admin 8.5K Nov 15 20:50 file.text
+-rw-------. 1 admin admin   34 Nov 15 10:12 file2
+drwxrwxr-x. 2 admin admin    6 Nov 15 10:12 dir2
+drwxrwxr-x. 2 admin admin   58 Nov 14 22:57 dir1
+drwxrwxr-x. 2 admin admin    6 Nov 11 18:04 yagnesh
+[admin@localhost ~]$ ls -lhtr
+total 16K
+drwxrwxr-x. 2 admin admin    6 Nov 11 18:04 yagnesh
+drwxrwxr-x. 2 admin admin   58 Nov 14 22:57 dir1
+drwxrwxr-x. 2 admin admin    6 Nov 15 10:12 dir2
+-rw-------. 1 admin admin   34 Nov 15 10:12 file2
+-rw-rw-r--. 1 admin admin 8.5K Nov 15 20:50 file.text
+drwxrwxr-x. 2 admin admin    6 Nov 16 09:52 rushi2
+drwxrwxr-x. 2 admin admin    6 Nov 16 09:52 rushi1
+lrwxrwxrwx. 1 admin admin   14 Nov 16 13:58 yash.text -> /tmp/file.text
+lrwxrwxrwx. 1 admin admin   15 Nov 16 14:04 yash1 -> /tmp/file1.text
+lrwxrwxrwx. 1 admin admin   14 Nov 16 14:17 revathi.text -> /tmp/file.text
+drwxrwxr-x. 2 admin admin   23 Nov 17 20:43 kalyan
+drwxrwxr-x. 2 admin admin  111 Nov 17 21:41 lavanya
+drwxrwxr-x. 2 admin admin    6 Nov 19 12:31 file1
+[admin@localhost ~]$ ls
+dir1  dir2  file1  file2  file.text  kalyan  lavanya  revathi.text  rushi1  rushi2  yagnesh  yash1  yash.text
+[admin@localhost ~]$ cd kalyan
+[admin@localhost kalyan]$ ls
+file.text
+[admin@localhost kalyan]$ vim file.text
+[admin@localhost kalyan]$ cat file.text
+ii this is kokila
+
+[admin@localhost kalyan]$ wc file.text[admin@localhost ~]$ ls -lht
+total 16K
+drwxrwxr-x. 2 admin admin    6 Nov 19 12:31 file1
+drwxrwxr-x. 2 admin admin  111 Nov 17 21:41 lavanya
+drwxrwxr-x. 2 admin admin   23 Nov 17 20:43 kalyan
+lrwxrwxrwx. 1 admin admin   14 Nov 16 14:17 revathi.text -> /tmp/file.text
+lrwxrwxrwx. 1 admin admin   15 Nov 16 14:04 yash1 -> /tmp/file1.text
+lrwxrwxrwx. 1 admin admin   14 Nov 16 13:58 yash.text -> /tmp/file.text
+drwxrwxr-x. 2 admin admin    6 Nov 16 09:52 rushi1
+drwxrwxr-x. 2 admin admin    6 Nov 16 09:52 rushi2
+-rw-rw-r--. 1 admin admin 8.5K Nov 15 20:50 file.text
+-rw-------. 1 admin admin   34 Nov 15 10:12 file2
+drwxrwxr-x. 2 admin admin    6 Nov 15 10:12 dir2
+drwxrwxr-x. 2 admin admin   58 Nov 14 22:57 dir1
+drwxrwxr-x. 2 admin admin    6 Nov 11 18:04 yagnesh
+[admin@localhost ~]$ ls -lhtr
+total 16K
+drwxrwxr-x. 2 admin admin    6 Nov 11 18:04 yagnesh
+drwxrwxr-x. 2 admin admin   58 Nov 14 22:57 dir1
+drwxrwxr-x. 2 admin admin    6 Nov 15 10:12 dir2
+-rw-------. 1 admin admin   34 Nov 15 10:12 file2
+-rw-rw-r--. 1 admin admin 8.5K Nov 15 20:50 file.text
+drwxrwxr-x. 2 admin admin    6 Nov 16 09:52 rushi2
+drwxrwxr-x. 2 admin admin    6 Nov 16 09:52 rushi1
+lrwxrwxrwx. 1 admin admin   14 Nov 16 13:58 yash.text -> /tmp/file.text
+lrwxrwxrwx. 1 admin admin   15 Nov 16 14:04 yash1 -> /tmp/file1.text
+lrwxrwxrwx. 1 admin admin   14 Nov 16 14:17 revathi.text -> /tmp/file.text
+drwxrwxr-x. 2 admin admin   23 Nov 17 20:43 kalyan
+drwxrwxr-x. 2 admin admin  111 Nov 17 21:41 lavanya
+drwxrwxr-x. 2 admin admin    6 Nov 19 12:31 file1
+[admin@localhost ~]$ ls
+dir1  dir2  file1  file2  file.text  kalyan  lavanya  revathi.text  rushi1  rushi2  yagnesh  yash1  yash.text
+[admin@localhost ~]$ cd kalyan
+[admin@localhost kalyan]$ ls
+file.text
+[admin@localhost kalyan]$ vim file.text
+[admin@localhost kalyan]$ cat file.text
+ii this is kokila
+
+[admin@localhost kalyan]$ wc file.textdrwxrwxr-x. 2 admin admin   58 Nov 14 22:57 dir1
+drwxrwxr-x. 2 admin admin    6 Nov 15 10:12 dir2
+-rw-------. 1 admin admin   34 Nov 15 10:12 file2
+-rw-rw-r--. 1 admin admin 8.5K Nov 15 20:50 file.text
+drwxrwxr-x. 2 admin admin    6 Nov 16 09:52 rushi2
+drwxrwxr-x. 2 admin admin    6 Nov 16 09:52 rushi1
+lrwxrwxrwx. 1 admin admin   14 Nov 16 13:58 yash.text -> /tmp/file.text
+lrwxrwxrwx. 1 admin admin   15 Nov 16 14:04 yash1 -> /tmp/file1.text
+lrwxrwxrwx. 1 admin admin   14 Nov 16 14:17 revathi.text -> /tmp/file.text
+drwxrwxr-x. 2 admin admin   23 Nov 17 20:43 kalyan
+drwxrwxr-x. 2 admin admin  111 Nov 17 21:41 lavanya
+drwxrwxr-x. 2 admin admin    6 Nov 19 12:31 file1
+[admin@localhost ~]$ ls
+dir1  dir2  file1  file2  file.text  kalyan  lavanya  revathi.text  rushi1  rushi2  yagnesh  yash1  yash.text
+[admin@localhost ~]$ cd kalyan
+[admin@localhost kalyan]$ ls
+file.text
+[admin@localhost kalyan]$ vim file.text
+[admin@localhost kalyan]$ cat file.text
+ii this is kokila
+
+[admin@localhost kalyan]$ wc file.text 

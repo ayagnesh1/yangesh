@@ -1,0 +1,9 @@
+
+-rwxr-xr-x.  1 root   root   10485760 Dec  5  2022 ABCD
+-rw-r--r--.  1 root   root        107 Mar 23  2023 ABC.tar.gz
+drwx------. 13 admin  admin      4096 Jan 26 16:36 admin
+drwxr-xr-x.  9 admin  admin       127 Dec 21  2022 Devops_6PM
+-rw-r--r--.  1 root   root       1555 Mar 23  2023 f
+-rw-r--r--.  1 root   root       1555 Mar 23  2023 FILE1.tar.gz
+-rwxrwxrwx.  1 root   root         42 Jan 24 23:35 file.sh
+

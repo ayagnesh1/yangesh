@@ -1,0 +1,4 @@
+top
+cd ..
+top
+exit

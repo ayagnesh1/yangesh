@@ -1,0 +1,37 @@
+
+  978  kalyan
+  979  kalyan
+  980  kalyan
+  981  ./if3.sh
+  982  kalyan
+  983  ./if3.sh
+  984  kalyan
+  985  ./if3.sh
+  986  kalyan
+  987  ./if3.sh
+  988  kalyan
+  989  ./if3.sh
+  990  lsss
+  991  ifconfig
+  992  ls\
+  993  ls
+  994  clear
+  995  mkdir -p dir1 dir2 dir3 dir4
+  996  ls
+  997  tree
+  998  cd dir1
+  999  tree
+ 1000  cd ~
+ 1001  tree dir1
+ 1002  clear
+ 1003  tree
+ 1004  ls
+ 1005  ls -l | '^-'
+ 1006  ls -l | '-^'
+ 1007  ls -l | kalyan '-^'
+ 1008  ls -l | kalyan'-^'
+ 1009  ls -l | kalyan '-^'
+ 1010  cd yagnesh
+ 1011  ls -l
+ 1012  ls -l | kalyan '-^%'
+ 1013  kalyan --helphiiii this is yagnesh from chittoor 
