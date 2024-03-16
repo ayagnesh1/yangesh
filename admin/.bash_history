@@ -1,6 +1,3 @@
-vim taskloop.sh
-./taskloop.sh Y A G N E S H
-vim taskloop.sh
 ./taskloop.sh Y A G N E S H
 ls
 cd ..
@@ -997,4 +994,7 @@ inti
 init
 ?
 sudo su root
+ifconfig
+sudo su root
+ifconfi
 ifconfig
