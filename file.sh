@@ -14,7 +14,3 @@ elif [ $cutoff -lt 10 ]
    echo "your are completely lapse"
 
 
-  else 
-   echo "your not eligible"
-
-fi

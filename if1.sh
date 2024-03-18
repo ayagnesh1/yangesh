@@ -2,15 +2,6 @@
 
 #To find system storage
 
-set -x 
-set -e
-
-df -h | ksdajflk
-
-free 
-
-nproc
 
 
-
-
+echo "this is practice filE"
